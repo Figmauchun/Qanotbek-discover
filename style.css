@@ -1,0 +1,39 @@
+@import url(https://fonts.googleapis.com/css?family=Space+Grotesk:300,regular,500,600,700);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Space Grotesk";
+  list-style: none;
+}
+.discover {
+  max-width: 1280px;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+.discover-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.discover-text-box {
+  max-width: 980px;
+}
+.discover-center {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.discover-center ul,
+.discover-center .btns-box {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+.discover-bottom {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
